@@ -1,4 +1,9 @@
-#include <exception/exception.hh>
+#ifdef NDEBUG
+#undef NDEBUG
+#endif
+
+#include <cassert>
+import exception;
 
 using namespace exception;
 
